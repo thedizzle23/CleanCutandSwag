@@ -21,6 +21,9 @@
 		B2C86C4E159BAF1B0004ADDA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2C86C2C159BAF1B0004ADDA /* Foundation.framework */; };
 		B2C86C56159BAF1B0004ADDA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B2C86C54159BAF1B0004ADDA /* InfoPlist.strings */; };
 		B2C86C59159BAF1B0004ADDA /* EarlyDevelopmentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B2C86C58159BAF1B0004ADDA /* EarlyDevelopmentTests.m */; };
+		B2C86C64159BAFCA0004ADDA /* AppleLogoRed.png in Resources */ = {isa = PBXBuildFile; fileRef = B2C86C63159BAFCA0004ADDA /* AppleLogoRed.png */; };
+		B2C86C66159BAFE60004ADDA /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B2C86C65159BAFE60004ADDA /* Default.png */; };
+		B2C86C68159BAFF40004ADDA /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B2C86C67159BAFF40004ADDA /* Default@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +58,9 @@
 		B2C86C57159BAF1B0004ADDA /* EarlyDevelopmentTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EarlyDevelopmentTests.h; sourceTree = "<group>"; };
 		B2C86C58159BAF1B0004ADDA /* EarlyDevelopmentTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EarlyDevelopmentTests.m; sourceTree = "<group>"; };
 		B2C86C62159BAF2A0004ADDA /* EarlyDevelopment.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = EarlyDevelopment.entitlements; sourceTree = "<group>"; };
+		B2C86C63159BAFCA0004ADDA /* AppleLogoRed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppleLogoRed.png; sourceTree = "<group>"; };
+		B2C86C65159BAFE60004ADDA /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		B2C86C67159BAFF40004ADDA /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +90,8 @@
 		B2C86C1B159BAF1B0004ADDA = {
 			isa = PBXGroup;
 			children = (
+				B2C86C67159BAFF40004ADDA /* Default@2x.png */,
+				B2C86C65159BAFE60004ADDA /* Default.png */,
 				B2C86C30159BAF1B0004ADDA /* EarlyDevelopment */,
 				B2C86C51159BAF1B0004ADDA /* EarlyDevelopmentTests */,
 				B2C86C29159BAF1B0004ADDA /* Frameworks */,
@@ -129,6 +137,7 @@
 		B2C86C31159BAF1B0004ADDA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B2C86C63159BAFCA0004ADDA /* AppleLogoRed.png */,
 				B2C86C32159BAF1B0004ADDA /* EarlyDevelopment-Info.plist */,
 				B2C86C33159BAF1B0004ADDA /* InfoPlist.strings */,
 				B2C86C36159BAF1B0004ADDA /* main.m */,
@@ -229,6 +238,9 @@
 				B2C86C35159BAF1B0004ADDA /* InfoPlist.strings in Resources */,
 				B2C86C3E159BAF1B0004ADDA /* MainStoryboard_iPhone.storyboard in Resources */,
 				B2C86C41159BAF1B0004ADDA /* MainStoryboard_iPad.storyboard in Resources */,
+				B2C86C64159BAFCA0004ADDA /* AppleLogoRed.png in Resources */,
+				B2C86C66159BAFE60004ADDA /* Default.png in Resources */,
+				B2C86C68159BAFF40004ADDA /* Default@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
